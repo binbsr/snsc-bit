@@ -1,0 +1,19 @@
+/* Selectors: tag, id, class */
+p {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#para1 {
+    color: blueviolet;
+}
+
+.para {
+    font-weight: lighter;
+}
+
+button {
+    padding: 10px;
+    margin-right: 50px;
+}
