@@ -1,0 +1,31 @@
+﻿@model List<Department>
+
+<h2 class="float-start">All Hospital Departments</h2>
+<a href="/departments/add" class="btn btn-success float-end"><i class="bi bi-plus-lg"></i> Add Department</a>
+
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Desc</th>
+            <th scope="col">Established</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var department in Model)
+        {
+            <tr>
+                <td>@department.Id</td>
+                <td>@department.Name</td>
+                <td>@department.Description</td>
+                <td>@department.Established.ToString("MMMM dd, yyyy")</td>
+                <td>
+                    <a href="/departments/edit"><i class="bi bi-pencil-fill text-warning"></i></a>
+                    <a href="/departments/edit"><i class="bi bi-trash3-fill text-danger"></i></a>
+                </td>
+            </tr>
+        }                
+    </tbody>
+</table>

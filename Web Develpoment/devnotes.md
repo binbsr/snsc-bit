@@ -13,3 +13,29 @@
 ## Skill Set and Communication - Sell
 ## Traineeships, Interships etc.
 ## IT 3-4 years = Mid level, ~80k
+
+
+
+
+
+## HTTP
+## URL
+https://www.google.com:443/search?q=bhimdatta&sxsrf=AB5stBhasy9MHN1u3hJ0D3wG56ovJnwmiw%3A1690256371045&source=hp&ei=80O_ZPFm8qzFzw-Zrp2ADg&iflsig=AD69kcEAAAAAZL9SA-DgQ4BRfXC7XtpiJYjPQoeuFHrK&oq=&gs_lp=Egdnd3Mtd2l6IgAqAggAMgcQIxjqAhgnMgcQIxjqAhgnMgcQIxjqAhgnMgcQIxjqAhgnMgcQIxjqAhgnMgcQIxjqAhgnMgcQIxjqAhgnMgcQIxjqAhgnMgcQIxjqAhgnMgcQIxjqAhgnSPgNUABYAHABeACQAQCYAQCgAQCqAQC4AQPIAQCoAgo&sclient=gws-wiz
+
+https://www.bing.com/search?q=bhimdatta&form=QBLH&sp=-1&ghc=1&lq=0&pq=bhimdatta&sc=10-9&qs=n&sk=&cvid=3601AF6021AE4EC39F85010D2848048E&ghsh=0&ghacc=0&ghpl=
+
+https://duckduckgo.com/?t=h_&q=bhimdatta&ia=web
+
+https://search.brave.com/search?q=bhimdatta&source=web
+
+
+
+## DNS - Domain Name Server
+www.google.com => 234.56.10.234
+
+
+## Patient Management System
+    1. Patient (Id, Name, Address, Dob, Contact, Gender, DoctorId, PatientId)
+    1. Diagnosis (Id, Problem, Description, Medication)
+    1. Doctor (Id, Name, Contact, Speciality, Credentials, DepartmentId)
+    1. Department (Id, Name, Desc, Established)
