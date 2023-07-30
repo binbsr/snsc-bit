@@ -39,3 +39,25 @@ www.google.com => 234.56.10.234
     1. Diagnosis (Id, Problem, Description, Medication)
     1. Doctor (Id, Name, Contact, Speciality, Credentials, DepartmentId)
     1. Department (Id, Name, Desc, Established)
+
+# Data access strategies on .NET
+## ADO.NET - SqlConnection, SqlReader etc.
+## ORM (Object Relational Mapper): EF Core, NHibernate, Dapper, Repo.Db etc.
+
+## Table relations
+    1. one-to-one 
+    2. one-to-many, many-to-one
+    3. many-to-many
+
+# ASP.NET Core Identity
+    1. Authentication: user identity, login/logout
+    1. Authorization: Access role based, policy based
+
+
+# API
+
+## XML
+## JSON
+
+
+## ASP.NET Core => Web => HTTP => Stateless = 
